@@ -38,12 +38,13 @@ export const Hero = () => {
           </a>
 
           <motion.a 
-            href="/Andres_Briceno_FullStack_Engineer.pdf"
+            href="/andres_briceno_fullstack_engineer.pdf" 
             target="_blank"
-            download="Andres_Briceno_CV.pdf"
+            rel="noopener noreferrer"
+            download="Andres_Briceno_FullStack_Engineer.pdf"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="border border-white/20 text-white px-8 py-3 rounded-md font-bold hover:bg-white/10 transition-all flex items-center gap-2 backdrop-blur-sm"
+            className="border border-white/20 text-white px-8 py-3 rounded-md font-bold hover:bg-white/10 transition-all flex items-center gap-2 backdrop-blur-sm cursor-pointer"
           >
             <Download size={18} /> Download CV
           </motion.a>
