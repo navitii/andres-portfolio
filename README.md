@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+🚀 Modern Full Stack Portfolio | 2026 Edition
+A high-performance, immersive portfolio built with Next.js 15, React 19, and Tailwind CSS v4. This project showcases a blend of competitive leadership and advanced software engineering, featuring fluid animations and a space-inspired aesthetic.
 
-## Getting Started
+🛠️ Tech Stack
+Framework: Next.js 15 (App Router)
 
-First, run the development server:
+Library: React 19
 
-```bash
+Styling: Tailwind CSS v4 (Modern CSS-first approach)
+
+Animations: Framer Motion (Complex gestures & layout transitions)
+
+Icons: Lucide React & Material UI Icons
+
+Deployment: Vercel
+
+✨ Key Features
+Responsive Bento Grid: A dynamic project showcase that adapts perfectly to mobile, tablet, and desktop.
+
+Immersive Background: Custom-built starfield engine with hydration-safe rendering.
+
+Interactive Modal System: Detailed project view with multi-screenshot navigation and keyboard accessibility (Esc to close).
+
+Smooth Navigation: Seamless scroll experience with sticky glassmorphism Navbar.
+
+Optimized Performance: 95+ Lighthouse scores through Next.js Image optimization and strategic code splitting.
+
+📂 Project Structure
+Plaintext
+├── src/
+│   ├── app/            # Next.js App Router (Layouts & Pages)
+│   ├── components/     # Reusable UI Components (Hero, Navbar, ProjectGrid, etc.)
+│   └── globals.css     # Tailwind v4 configuration and custom animations
+├── public/             # Static assets (CV, Project screenshots, Icons)
+└── tailwind.config.js  # Theme and extended design tokens
+🚀 Getting Started
+Clone the repository:
+
+Bash
+git clone https://github.com/navitii/andres-portfolio.git
+Install dependencies:
+
+Bash
+npm install
+Run the development server:
+
+Bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open http://localhost:3000 to see the result.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+🏆 About the Author
+Andres Briceño — Full Stack Engineer.
+Graduated in Computer Engineering with a focus on high-performance web architectures. Beyond code, I bring the discipline of a 5-time National Champion to every digital product I build.
