@@ -154,13 +154,13 @@ export default function Home() {
               </a>
               <a href="https://www.linkedin.com/in/aeduardobri/" rel="noopener noreferrer" className="group flex flex-col items-center gap-2">
                 <div className="p-3 rounded-full bg-white/5 group-hover:bg-blue-500/20 transition-all">
-                  <LinkedIn size={20} className="text-gray-400 group-hover:text-blue-400" />
+                  <LinkedIn className="w-5 h-5 text-gray-400 group-hover:text-blue-400" />
                 </div>
                 <span className="text-[10px] text-gray-500 uppercase tracking-tighter font-mono">LinkedIn</span>
               </a>
               <a href="https://github.com/navitii" rel="noopener noreferrer" className="group flex flex-col items-center gap-2">
                 <div className="p-3 rounded-full bg-white/5 group-hover:bg-white/20 transition-all">
-                  <GitHub size={20} className="text-gray-400 group-hover:text-white" />
+                  <GitHub className="w-5 h-5 text-gray-400 group-hover:text-white" />
                 </div>
                 <span className="text-[10px] text-gray-500 uppercase tracking-tighter font-mono">GitHub</span>
               </a>

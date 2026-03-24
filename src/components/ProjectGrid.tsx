@@ -99,7 +99,7 @@ export const ProjectGrid = () => {
               
               <div className="absolute top-4 right-4 z-20 flex gap-2 md:translate-y-[-10px] opacity-100 md:opacity-0 md:group-hover:translate-y-0 md:group-hover:opacity-100 transition-all duration-300">
                 <a href={project.repo} target="_blank" rel="noopener noreferrer" className="p-2.5 rounded-full bg-black/60 backdrop-blur-md border border-white/20 hover:bg-white/20 transition-colors">
-                  <GitHub size={20} className="text-white" />
+                  <GitHub className="w-5 h-5 text-white" />
                 </a>
                 <button 
                   onClick={() => { setSelectedProject(project); setCurrentImageIndex(0); }}
