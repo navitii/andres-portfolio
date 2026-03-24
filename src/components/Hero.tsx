@@ -38,7 +38,7 @@ export const Hero = () => {
           </a>
 
           <motion.a 
-            href="/CV AB.pdf"
+            href="/Andres_Briceno_FullStack_Engineer.pdf"
             target="_blank"
             download="Andres_Briceno_CV.pdf"
             whileHover={{ scale: 1.05 }}
