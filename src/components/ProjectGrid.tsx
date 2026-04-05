@@ -44,6 +44,16 @@ const projects = [
     tech: ["Angular", "Node.js", "MongoDB"],
     size: "md:col-span-2 md:row-span-1",
     color: "group-hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] border-orange-500/20"
+  },
+  {
+    title: "Fakturera",
+    image: "/Fakturera1.png",
+    screenshots: ["/Fakturera1.png", "/Fakturera2.png"],
+    repo: "https://github.com/navitii/Fakturera",
+    description: "Full-stack application built with React and Node.js.",
+    tech: ["React", "Node.js", "PostgreSQL"],
+    size: "md:col-span-1 md:row-span-1",
+    color: "group-hover:shadow-[0_0_30px_rgba(249,115,22,0.2)] border-orange-500/20"
   }
 ];
 
