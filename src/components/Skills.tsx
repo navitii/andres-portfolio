@@ -15,12 +15,12 @@ const skillCategories = [
   {
     title: "Tools & DevOps",
     icon: <Settings className="text-gray-400" />,
-    skills: ["Azure", "Jira / Trello", "Git", "Vercel / Heroku", "CI/CD", "Unit Testing"]
+    skills: ["Azure", "Jira / Trello", "Git", "Vercel / Heroku", "CI/CD", "Unit Testing", "HubSpot", "Claude Code", "Google Tools"]
   },
   {
     title: "Leadership & Performance",
     icon: <Rocket className="text-yellow-400" />,
-    skills: ["Team Leadership", "Project Management", "Agile Methodologies", "Competitive Strategy"]
+    skills: ["Team Leadership", "Project Management", "Agile Methodologies", "Competitive Strategy", "SEO Optimization", "Performance Tuning"]
   }
 ];
 

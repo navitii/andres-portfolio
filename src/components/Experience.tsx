@@ -1,7 +1,14 @@
 import { motion } from 'framer-motion';
-import { Briefcase, Trophy, Star, Zap, ShieldCheck } from 'lucide-react';
+import { Briefcase, Trophy, Star, Zap, ShieldCheck, Bird } from 'lucide-react';
 
 const experiences = [
+  {
+    company: "Event Hawk",
+    role: "Full Stack Developer",
+    period: "2026 - Present",
+    description: "Architected and developed scalable full-stack applications using Next.js, React, Supabase, C#, and .NET, leveraging Claude Code to accelerate development workflows. ",
+    icon: <Bird className="text-red-400" />
+  },
   {
     company: "Hornstromp Series",
     role: "Front-End Developer",
